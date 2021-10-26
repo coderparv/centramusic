@@ -1,9 +1,9 @@
 {
     "name": "Veez Music Bot",
-    "logo": "https://telegra.ph/file/9dd9b20abcda2d7bb6725.png",
-    "description": "veez music allow you to stream music trought the telegram voice chat feature.",
+    "logo": "https://telegra.ph/file/d637cbfa4090b9df45314.jpg",
+    "description": "private music bot for central community.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/levina-lab/veezmusic",
+    "repository": "https://github.com/coderparv/centramusic",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -15,49 +15,49 @@
             "required": true
         },
         "BOT_NAME": {
-            "description": "fill with your music bot name.",
+            "description": "centra music.",
             "required": true,
             "value": ""
         },
         "OWNER_ID": {
-            "description": "fill with your telegram id as the owner of the bot",
+            "description": "1937738983",
             "required": true,
             "value": ""
         },
         "DATABASE_URL": {
-            "description": "fill with the mongodb url you get from cloud.mongodb.com",
-            "required": true,
+            "description": "ni chiye"
+            "required": false,
             "value": ""
         },
         "LOG_CHANNEL": {
-            "description": "create a private channel and get the channel id (give the channel username/link to bot @username_to_id_bot and get the channel id), add your bot as admin to the channel too",
+            "description": "ok",
             "required": true,
-            "value": ""
+            "value": "-1001372556907"
         },
         "BOT_USERNAME": {
-            "description": "fill with your bot username without @",
+            "description": "ok",
             "required": true,
-            "value": "veezmusicbot"
+            "value": "centramusicbot"
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "veezasisstant"
+            "value": "c"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
-            "required": false,
-            "value": "https://telegra.ph/file/8628c642a266a22effd8c.png"
+            "required": true,
+            "value": ""
         },
         "OWNER_NAME": {
-            "description": "fill with your telegram username without @",
+            "description": "",
             "required": false,
-            "value": "dlwrml"
+            "value": "parv_of_sky"
         },
         "ALIVE_NAME": {
-            "description": "fill with the nickname of your telegram account",
+            "description": "ok",
             "required": false,
-            "value": "Levina"
+            "value": "centra"
         },
         "API_ID": {
             "description": "your Api ID from my.telegram.org/apps",
@@ -79,12 +79,12 @@
         "UPDATES_CHANNEL": {
             "description": "if you have channel, fill the channel username here without @",
             "required": false,
-            "value": "levinachannel"
+            "value": ""
         },
         "GROUP_SUPPORT": {
             "description": "if you have group, fill the group username here without @",
             "required": false,
-            "value": "VeezSupportGroup"
+            "value": ""
         }
     },
     "buildpacks": [
