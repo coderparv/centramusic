@@ -1,7 +1,7 @@
 {
-    "name": "centra Music Bot",
-    "logo": "https://telegra.ph/file/d637cbfa4090b9df45314.jpg",
-    "description": "private music bot for central community.",
+    "name": "centra music Bot",
+    "logo": "https://telegra.ph/file/d637cbfa4090b9df45314.png",
+    "description": "centra music bot for central community.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/coderparv/centramusic",
     "stack": "container",
@@ -15,47 +15,47 @@
             "required": true
         },
         "BOT_NAME": {
-            "description": "centra music.",
+            "description": "fill with your music bot name.",
             "required": true,
             "value": ""
         },
         "OWNER_ID": {
-            "description": "1937738983",
+            "description": "fill with your telegram id as the owner of the bot",
             "required": true,
             "value": ""
         },
         "DATABASE_URL": {
-            "description": "no need"
+            "description": "fill with the mongodb url you get from cloud.mongodb.com",
             "required": false,
             "value": ""
         },
         "LOG_CHANNEL": {
-            "description": "ok",
+            "description": "create a private channel and get the channel id (give the channel username/link to bot @username_to_id_bot and get the channel id), add your bot as admin to the channel too",
             "required": true,
-            "value": "-1001372556907"
+            "value": ""
         },
         "BOT_USERNAME": {
-            "description": "ok",
+            "description": "fill with your bot username without @",
             "required": true,
             "value": "centramusicbot"
         },
         "ASSISTANT_NAME": {
             "description": "fill with the assistant username without @",
             "required": true,
-            "value": "c"
+            "value": "centramusic"
         },
         "BG_IMAGE": {
             "description": "fill with your costum background image link",
-            "required": true,
-            "value": ""
+            "required": false,
+            "value": "https://telegra.ph/file/ff4855b4dc06061a118ea.png"
         },
         "OWNER_NAME": {
-            "description": "",
+            "description": "fill with your telegram username without @",
             "required": false,
             "value": "parv_of_sky"
         },
         "ALIVE_NAME": {
-            "description": "ok",
+            "description": "fill with the nickname of your telegram account",
             "required": false,
             "value": "centra"
         },
@@ -79,12 +79,12 @@
         "UPDATES_CHANNEL": {
             "description": "if you have channel, fill the channel username here without @",
             "required": false,
-            "value": ""
+            "value": "central_community"
         },
         "GROUP_SUPPORT": {
             "description": "if you have group, fill the group username here without @",
             "required": false,
-            "value": ""
+            "value": "central_community"
         }
     },
     "buildpacks": [
