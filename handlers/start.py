@@ -52,36 +52,36 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) allows you to play music on groups through the new Telegram's voice chats!**
+        f"""✨ **ding dong centra music here {message.from_user.mention()} !**\n
+🎴 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) a private music bot for @central_community!**
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+🎴 **go to the buttons below if u reached here buddy!**
 
-❔ **To know how to use this bot, please click on the » ❓ Basic Guide button!**""",
+🎴 **ok let's enojy the quality code!**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        "- don't add me to your group -",
+                        url=f"https://telegra.ph/esse-10-26",
                     )
                 ],
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("💝 Donate", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("📱MASTERY", callback_data="cbcmds"),
+                    InlineKeyboardButton("💜MAKER", url=f"https://t.me/parv_of_sky"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "HOME GROUP🏠", url=f"https://t.me/central_community"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "CREATOR INFO🎸", url=f"https://t.me/PARV200V"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/VeezMusic"
+                        "GITHUB REPO🎧", url="https://github.com/coderparv/centramusic"
                     )
                 ],
             ]
@@ -125,7 +125,7 @@ async def help(client: Client, message: Message):
     await message.reply_text(
         f"""✨ **Hello** {message.from_user.mention()} !
 
-» **press the button below to read the explanation and see the list of available commands !**
+» **more commands below !**
 
 ⚡ __Powered by {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
